@@ -18,8 +18,8 @@ def main():
     t.up()
     t.backward(100)
     t.down()
-    t.color("green")
-    draw_tree(75, t)
+    t.color("red")
+    draw_tree(100, t)
     screen.exitonclick()
 
 
